@@ -1,0 +1,42 @@
+public class CalculatorScore {
+
+
+    public CalculatorScore(String correctAnswer){
+        int totalScoerOfEach=0;
+        for (int i=0; i<=totalScoerOfEach; i++)
+        if(i<0){
+            System.out.println(totalScoerOfEach=totalScoerOfEach+4);
+        }
+        else if(i>7){
+           System.out.println( totalScoerOfEach=totalScoerOfEach+3);
+        }
+        else if(i>=5){
+            System.out.println(totalScoerOfEach=totalScoerOfEach+1);
+        }
+        return;
+    }
+
+    public String CalculateRespone(String Response,String CorrectAnswer){
+        Response="There are Twenty-Four hours in a day. A year has 14 months";
+        CorrectAnswer="There are twenty-four hours in a day, 30 days in a month, and 12 months in the calendar year ";
+
+        Response == Response.split();
+        CorrectAnswer == CorrectAnswer.split();
+
+        CalculatorScore Responsetolatal = new CalculatorScore(Response);
+        CalculatorScore CorrectAnswertotal = new CalculatorScore(CorrectAnswer);
+
+        int PercentageOfScore=Responsetolatal/CorrectAnswertotal*100;
+        return "PercentageOfScore";
+
+        return "";
+
+
+    }
+    public static void main(String[] args) {
+        CalculatorScore calculatorScore = new CalculatorScore();
+
+
+    }
+
+}
