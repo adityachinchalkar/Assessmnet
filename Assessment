@@ -1,7 +1,7 @@
 public class CalculatorScore {
 
 
-    public CalculatorScore(String correctAnswer){
+    public CalculatorScore(){
         int totalScoerOfEach=0;
         for (int i=0; i<=totalScoerOfEach; i++)
         if(i<0){
